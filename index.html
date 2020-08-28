@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+  <title>Juan Pablo Garcia Ortiz</title>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <script language="javascript" src="code.js"></script>
+</head>
+
+<body onload="initialize()">
+
+  <div id="grayBar"></div>
+  <div id="grayBar2"></div>
+
+  <div id="langBar">
+    <font id="langButton" 
+				onclick="changeLang()" 
+				onmouseover="this.style.backgroundColor='#c3d9ff'"
+				onmouseout="this.style.backgroundColor='#ffffff'"
+		>
+			English
+		</font>
+  </div>
+
+  <div id="subtitle">
+    P&aacute;gina personal
+  </div>
+
+  <table cellpadding="0" cellspacing="0">
+    <tr>
+        <td colspan="2" height=100>
+            <div id="title1">
+                Juan Pablo Garc&iacute;a Ortiz
+            </div>
+            <div id="title2">
+                Juan Pablo Garc&iacute;a Ortiz
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td valign="top">
+    		<table cellpadding="0" cellspacing="8" width="130px">
+    		    <tr>
+                    <td class="menuItemBox">
+                        <div id="personal" class="menuItem" onmouseover="emph(this)" onmouseout="demph(this)" onclick="select(this)">
+                            Personal
+                        </div>
+                    </td>
+                </tr>
+    		    <tr>
+                    <td class="menuItemBox">
+                        <div id="research" class="menuItem" onmouseover="emph(this)" onmouseout="demph(this)" onclick="select(this)">
+                            Investigaci&oacute;n
+                        </div>
+                        <table id="researchTable" cellpadding="5" cellspacing="3" width="100%" style="display: block">
+                            <tr>
+                                <td id="areas" width=100% class="subMenuItem" onmouseover="emph2(this)" onmouseout="demph2(this)" onclick="select2(this)">Areas</td>
+                            </tr>
+                            <tr>
+                                <td id="conferences" class="subMenuItem" onmouseover="emph2(this)" onmouseout="demph2(this)" onclick="select2(this)">Congresos</td>
+                            </tr>
+                            <tr>
+                                <td id="journals" class="subMenuItem" onmouseover="emph2(this)" onmouseout="demph2(this)" onclick="select2(this)">Revistas</td>
+                            </tr>
+                            <tr>
+                                <td id="books" class="subMenuItem" onmouseover="emph2(this)" onmouseout="demph2(this)" onclick="select2(this)">Libros</td>
+                            </tr>
+                            <tr>
+                                <td id="projects" class="subMenuItem" onmouseover="emph2(this)" onmouseout="demph2(this)" onclick="select2(this)">Proyectos</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="menuItemBox">
+                        <div id="links" class="menuItem" onmouseover="emph(this)" onmouseout="demph(this)" onclick="select(this)">
+                            Enlaces
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="menuItemBox">
+                        <div id="files" class="menuItem" onmouseover="emph(this)" onmouseout="demph(this)" onclick="select(this)">
+                            Archivos
+                        </div>
+                    </td>
+                </tr>
+    		</table>
+				<br />
+					<center style="color : #a7a7a7; font-size : 8pt; ">
+						Last update:<br /> 
+						August, 2008
+					</center>
+        </td>
+        <td valign="top" style="padding-top: 10px; padding-left: 10px" width="100%" align="left">
+           <div id="text"></div>
+        </td>
+    </tr>
+  </table>
+</body>
+
+</html>
